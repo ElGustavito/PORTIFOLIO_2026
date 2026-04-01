@@ -1,0 +1,114 @@
+* {
+  scroll-behavior: smooth;
+}
+
+/* ================= WRAPPER CIRCULAR ================= */
+
+.circle-option {
+  border-radius: 50%;
+  padding: 5px;
+  cursor: pointer;
+  display: inline-block;
+  transition: all 0.25s ease;
+}
+
+/* ================= IMAGEM ================= */
+
+.circle-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  border: 3px solid transparent;
+  transition: all 0.25s ease;
+}
+
+/* ================= CORES BASE ================= */
+
+.option-orange {
+  border: 3px solid #f97316;
+}
+
+.option-yellow {
+  border: 3px solid #eab308;
+}
+
+/* ================= HOVER SUAVE ================= */
+
+.circle-option:hover {
+  transform: translateY(-2px);
+}
+
+/* ================= ESTADO ATIVO (GLOW) ================= */
+
+.option-orange.active-option {
+  box-shadow: 0 0 28px rgba(249, 115, 22, 0.75);
+}
+
+.option-yellow.active-option {
+  box-shadow: 0 0 28px rgba(234, 179, 8, 0.75);
+}
+
+/* zoom leve da imagem ativa */
+.active-img {
+  transform: scale(1.05);
+}
+
+/* ================= RESTO DO SEU SITE ================= */
+
+.info-box {
+  background: #0b0f14;
+  border: 1px solid #374151;
+  padding: 10px;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-bottom: 14px;
+}
+
+.social-btn {
+  background: #0b0f14;
+  border: 1px solid #374151;
+  padding: 12px;
+  transition: all 0.25s ease;
+}
+
+.social-btn:hover {
+  border-color: #f97316;
+  box-shadow: 0 0 12px rgba(249,115,22,.45);
+  transform: translateY(-2px);
+}
+
+.panel-box {
+  background: #111827;
+  border: 1px solid #374151;
+  padding: 18px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.panel-box:hover {
+  border-color: #f97316;
+  box-shadow: 0 0 20px rgba(249,115,22,.25);
+}
+
+.active-panel {
+  border-color: #f97316;
+  box-shadow: 0 0 22px rgba(249,115,22,.35);
+}
+
+.project-card img {
+  transition: transform .25s ease;
+}
+
+.project-card:hover img {
+  transform: scale(1.06);
+}
+
+.project-card {
+  transition: all .25s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-3px);
+}
