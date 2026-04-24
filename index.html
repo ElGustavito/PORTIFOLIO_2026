@@ -12,13 +12,10 @@
 <body class="bg-[#0b0f14] min-h-screen text-gray-200">
   <div class="grid md:grid-cols-2 min-h-screen">
 
-<!-- ================= LADO ESQUERDO ================= -->
 <div class="bg-[#111827] p-6 flex flex-col">
 
-  <!-- CONTEÚDO CENTRAL -->
   <div class="flex flex-col items-center gap-6 flex-1 justify-center">
 
-    <!-- AVATARES -->
     <div class="flex gap-6 flex-wrap justify-center">
 
       <div id="btnPessoal" class="circle-option option-orange active-option">
@@ -31,7 +28,6 @@
 
     </div>
 
-    <!-- NOME -->
     <div id="painelPessoal" class="text-center max-w-sm">
 
       <h2 class="text-xl font-bold">
@@ -42,7 +38,6 @@
         Desenvolvedor Multiplataforma - Artista
       </p>
 
-      <!-- BOTÕES SOCIAIS -->
       <div class="flex flex-col gap-3 w-full">
 
         <button class="social-btn flex items-center gap-2 justify-center" onclick="window.open('https://github.com/ElGustavito', '_blank')">
@@ -61,18 +56,14 @@
     </div>
   </div>
 
-  <!-- RODAPÉ FIXO EMBAIXO -->
   <div class="mt-auto text-sm text-gray-500 text-center pt-6">
     © 2026 Gustavo Felipe de Oliveira — Todos os direitos reservados
   </div>
-
 </div>
 
-    <!-- ================= LADO DIREITO ================= -->
     <div class="bg-[#0b0f14] p-6">
       <div class="max-w-2xl mx-auto flex flex-col gap-4">
 
-        <!-- SOBRE MIM -->
         <div id="sobreBox" class="panel-box active-panel">
           <div class="flex justify-between items-center">
             <h2 class="text-lg font-semibold">Sobre Mim</h2>
@@ -86,13 +77,11 @@
           </p>
         </div>
 
-        <!-- PROJETOS -->
         <div id="projetosBox" class="panel-box flex justify-between items-center">
           <h2 class="text-lg font-semibold">Projetos</h2>
           <img id="setaProjetos" src="Icons/seta-direita.png.png" class="w-5 h-5" />
         </div>
 
-        <!-- LISTA -->
         <div id="listaProjetos" class="hidden flex flex-col gap-4"></div>
       </div>
     </div>
