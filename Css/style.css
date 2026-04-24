@@ -58,7 +58,7 @@
 /* ================= RESTO DO SEU SITE ================= */
 
 .info-box {
-  background: #0b0f14;
+  background: #0F0F0F;
   border: 1px solid #374151;
   padding: 10px;
   text-align: center;
@@ -67,7 +67,7 @@
 }
 
 .social-btn {
-  background: #0b0f14;
+  background: #0F0F0F;
   border: 1px solid #374151;
   padding: 12px;
   transition: all 0.25s ease;
@@ -80,7 +80,7 @@
 }
 
 .panel-box {
-  background: #111827;
+  background: #141414;
   border: 1px solid #374151;
   padding: 18px;
   cursor: pointer;
